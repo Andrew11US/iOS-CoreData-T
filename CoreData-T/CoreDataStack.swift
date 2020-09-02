@@ -9,7 +9,7 @@
 import Foundation
 import CoreData
 
-struct CoreDataStack {
+class CoreDataStack {
     private let modelName: String
     
     init(modelName: String) {
@@ -33,7 +33,7 @@ struct CoreDataStack {
 
 // MARK: Internal
 extension CoreDataStack {
-    mutating func saveContext() {
+    func saveContext() {
         guard context.hasChanges else { return }
         
         do {
