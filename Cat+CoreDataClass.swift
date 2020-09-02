@@ -2,7 +2,7 @@
 //  Cat+CoreDataClass.swift
 //  CoreData-T
 //
-//  Created by Andrew on 8/31/20.
+//  Created by Andrew on 9/2/20.
 //  Copyright © 2020 Andrii Halabuda. All rights reserved.
 //
 //
