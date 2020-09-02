@@ -17,6 +17,7 @@
 		0151D90024FD806E00C58C95 /* Cat+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0151D8FE24FD806E00C58C95 /* Cat+CoreDataClass.swift */; };
 		0151D90124FD806E00C58C95 /* Cat+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0151D8FF24FD806E00C58C95 /* Cat+CoreDataProperties.swift */; };
 		0151D90324FD812900C58C95 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0151D90224FD812900C58C95 /* CoreDataStack.swift */; };
+		017889FA24FFD7E600E50284 /* CoreDataCRUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017889F924FFD7E600E50284 /* CoreDataCRUD.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		0151D8FE24FD806E00C58C95 /* Cat+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Cat+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
 		0151D8FF24FD806E00C58C95 /* Cat+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Cat+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 		0151D90224FD812900C58C95 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		017889F924FFD7E600E50284 /* CoreDataCRUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataCRUD.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				0151D8F824FD7F2600C58C95 /* Info.plist */,
 				0151D8F024FD7F2500C58C95 /* CoreData_T.xcdatamodeld */,
 				0151D90224FD812900C58C95 /* CoreDataStack.swift */,
+				017889F924FFD7E600E50284 /* CoreDataCRUD.swift */,
 			);
 			path = "CoreData-T";
 			sourceTree = "<group>";
@@ -156,6 +159,7 @@
 				0151D90124FD806E00C58C95 /* Cat+CoreDataProperties.swift in Sources */,
 				0151D8F224FD7F2500C58C95 /* CoreData_T.xcdatamodeld in Sources */,
 				0151D8E824FD7F2500C58C95 /* AppDelegate.swift in Sources */,
+				017889FA24FFD7E600E50284 /* CoreDataCRUD.swift in Sources */,
 				0151D8EA24FD7F2500C58C95 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
